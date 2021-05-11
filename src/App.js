@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="App">
      <div className="app__container">
+       <h1>Todo List</h1>
        <div className="app__todoContainer">
          {
                TodoList.map(item=>(
